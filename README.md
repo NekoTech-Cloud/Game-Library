@@ -1,0 +1,1 @@
+A text-based representation of a game library, utilizing collections and inheritance.
