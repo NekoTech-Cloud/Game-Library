@@ -8,18 +8,44 @@
 public class GameSession
 {
     private Game game;
+    private String player;
     private long startTime;
     private long endTime;
-    private String player;
-    private boolean isPlaying;
-    
+    private boolean isActive;
+
     /**
-     * Constructor for objects of class Session
+     * Constructor for objects of class GameSession
      */
-    public GameSession()
+    public GameSession(Game game, String player)
     {
-        
+        this.game = game;
+        this.player = player;
+        isActive = false;
     }
 
-    
+    public void start(){
+        startTime = System.currentTimeMillis();
+        isActive = true;
+    }
+
+    public void stop(){
+        endTime = System.currentTimeMillis();
+        isActive = false;
+    }
+
+    public long getDurationSeconds(){
+        return (endTime - startTime) / 1000;
+    }
+
+    public Game getGame(){
+        return game;
+    }
+
+    public String getPlayer(){
+        return player;
+    }
+
+    public boolean isActive(){
+        return isActive;
+    }
 }
