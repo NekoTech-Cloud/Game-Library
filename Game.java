@@ -7,7 +7,8 @@
  */
 public class Game
 {
-    
+    String title;
+    String ageRating;
     
     String numOfPlayers;
     String ageRating;

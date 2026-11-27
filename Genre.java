@@ -7,5 +7,5 @@
  */
 public enum Genre
 {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    Adventure, Horror, Action, Strategy, Survival, RPG,  Shooter, Sports, Sandbox, Platformer, Fighting, Racing
 }

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class GameLibrary
 {
     private ArrayList<Game> library;
+    private ArrayList<Session> gameSessions;
 
     /**
      * Constructor for objects of class GameLibrary
