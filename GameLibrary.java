@@ -9,6 +9,7 @@ public class GameLibrary
 {
     private ArrayList<Game> library;
     private ArrayList<GameSession> gameSessions;
+    private GameSession currentSession;
 
     /**
      * Constructor for objects of class GameLibrary
