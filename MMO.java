@@ -12,10 +12,10 @@ public class MMO extends Game
     /**
      * Constructor for objects of class MMO
      */
-    public MMO(String title, AgeRating ageRating, Platform platforms, Genre genres)
+    public MMO(String title, AgeRating ageRating, Platform[] platforms, Genre genres)
     {
         super(title, ageRating, platforms, genres);
-        numOfPlayers = "Online";
+        numOfPlayers = "5000+";
     }
 
     /**
