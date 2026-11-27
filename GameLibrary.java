@@ -15,7 +15,7 @@ public class GameLibrary
      */
     public GameLibrary()
     {
-        
+        library.add(new Game("Minecraft", E10, { PC, Console, Mobile }, Sandbox));
     }
 
     /**

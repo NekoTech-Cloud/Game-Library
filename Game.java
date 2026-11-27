@@ -7,22 +7,21 @@ import java.util.ArrayList;
  */
 public class Game
 {
-    String title;
-    AgeRating ageRating;
-    Platform platforms;
-    Genre genres;
+    private String title;
+    private Genre genre;
+    private AgeRating ageRating;
     
-    ArrayList<Integer> ratings;
-    
+    private Platform[] platforms;
+    private ArrayList<Integer> ratings;
     
     /**
      * Constructor for objects of class Game
      */
-    public Game(String title, AgeRating ageRating, Platform platforms, Genre genres) {
+    public Game(String title, AgeRating ageRating, Platform[] platforms, Genre genre) {
         this.title = title;
         this.ageRating = ageRating;
         this.platforms = platforms;
-        this.genres = genres;
+        this.genre = genre;
     }
 
     /**
@@ -37,12 +36,12 @@ public class Game
         return ageRating;
     }
     
-    public Platform getPlatforms() {
-        return platforms;
+    public Platform[] getPlatforms() {
+         return platforms;
     }
     
     public Genre getGenre() {
-        return genres;
+        return genre;
     }
     
     public void addRating(int rating) {

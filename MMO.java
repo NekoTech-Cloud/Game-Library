@@ -7,16 +7,15 @@
  */
 public class MMO extends Game
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    String numOfPlayers;
 
     /**
      * Constructor for objects of class MMO
      */
-    public MMO()
+    public MMO(String title, AgeRating ageRating, Platform platforms, Genre genres)
     {
-        // initialise instance variables
-        x = 0;
+        super(title, ageRating, platforms, genres);
+        numOfPlayers = "Online";
     }
 
     /**
@@ -25,9 +24,8 @@ public class MMO extends Game
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void sampleMethod(int y)
     {
-        // put your code here
-        return x + y;
+        
     }
 }
