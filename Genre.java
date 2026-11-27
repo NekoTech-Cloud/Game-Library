@@ -7,5 +7,5 @@
  */
 public enum Genre
 {
-    Adventure, Horror, Action, Strategy, Survival, RPG,  Shooter, Sports, Sandbox, Platformer, Fighting, Racing
+    ADVENTURE, HORROR, ACTION, STRATEGY, SURVIVAL, RPG, SANDBOX
 }
