@@ -15,7 +15,8 @@ public class GameLibrary
      */
     public GameLibrary()
     {
-        library.add(new Game("Minecraft", E10, { PC, Console, Mobile }, Sandbox));
+        Platform[] platforms = {Platform.PC, Platform.CONSOLE, Platform.MOBILE};
+        library.add(new Game("Minecraft", AgeRating.E10, platforms, Genre.SANDBOX));
     }
 
     /**
