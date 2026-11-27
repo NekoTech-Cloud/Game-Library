@@ -13,7 +13,7 @@ public class MultiPlayer extends Game
     /**
      * Constructor for objects of class Multiplayer
      */
-    public MultiPlayer(String title, AgeRating ageRating, Platform platforms, Genre genres)
+    public MultiPlayer(String title, AgeRating ageRating, Platform[] platforms, Genre genres)
     {
         super(title, ageRating, platforms, genres);
         numOfPlayers = "1-4";

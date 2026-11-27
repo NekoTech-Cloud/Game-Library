@@ -13,7 +13,7 @@ public class SinglePlayer extends Game
     /**
      * Constructor for objects of class SinglePlayer
      */
-    public SinglePlayer(String title, AgeRating ageRating, Platform platforms, Genre genres)
+    public SinglePlayer(String title, AgeRating ageRating, Platform[] platforms, Genre genres)
     {
         super(title, ageRating, platforms, genres);
         numOfPlayers = "1";
